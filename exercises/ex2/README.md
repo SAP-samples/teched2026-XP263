@@ -1,11 +1,19 @@
 # Exercise 2 - Create the Access Package in Microsoft Entra
 
-In this exercise, you will create the following Entra ID Governance objects:
-* A **Catalog**, which is a container that groups related *Resources* and *Access Packages*, defining which resources are available to be included in those packages.
-* **Resources** are the actual items to which access can be granted, such as an SAP Cloud IAG business role, an Entra group, an applications role, or SharePoint Online sites.
-* The **Access Package** provides the user-facing access request and governance layer. It bundles one or more of those catalog resources with policies governing who can request access, approvals, and the access lifecycle.
+In this exercise, you will work as a **Microsoft Entra administrator** and configure the Microsoft Entra ID Governance objects that business users will use to request Procurement Manager access (see *figure 2*).
+
 <br><br>
-In this scenario, the **Access Package** includes the SAP Cloud IAG business role with the SAP-specific permissions created in the [previous exercise](../ex1/README.md) alongside the Microsoft resources, which is the role of the Microsoft Azure Web application. Approval for the SAP portion is passed over to SAP Cloud IAG, whereas the process for approving access to the Azure Web application is configured and managed in Entra ID Governance.
+<a href="./images/ex2.jpg" target="_blank"><img src="./images/ex2.jpg" width="250"/></a>
+
+*Figure 1: Exercise 2*<br><br>
+
+Microsoft Entra entitlement management organizes access through **catalogs**, **resources**, and **access packages**. An access package bundles the resources that a user needs for a particular business purpose and defines the policies governing how that access can be requested and approved.
+
+For this scenario, the SAP Cloud IAG business role `BR_XP263_<NN>` is made available as a resource in the Microsoft Entra catalog. You will include this resource in the `AP_XP263_<NN>` access package together with the Microsoft Entra resources required by the scenario.
+
+You will also configure the access package policy that controls who can request the package and how the request is approved.
+
+At the end of this exercise, the access package is available for eligible business users to request through the Microsoft Entra My Access portal.
 
 
 | Step   | Description                | Screenshot |
@@ -40,8 +48,4 @@ In this scenario, the **Access Package** includes the SAP Cloud IAG business rol
 | 28     | abc |<a href="./images/2-28.jpg" target="_blank"><img src="./images/2-28.jpg" width="250"/></a>|
 
 
-## Summary
-
-You've now ...
-
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Request the access package in Microsoft Entra](../ex3/README.md)

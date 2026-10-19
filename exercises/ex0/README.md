@@ -24,6 +24,6 @@ You need to setup Multifactor Authentication (MFA) for your Entra admin user. Th
 | 18     | Enter the **number** again in the dialog window opened by the Authenticator app's dialog on your phone. <br><br>Confirm with **Yes**.|<a href="./images/0-18.jpg" target="_blank"><img src="./images/0-18.jpg" width="250"/></a>|
 | 19     | You are sign-on to the Microsoft Entra admin center.|<a href="./images/0-19.jpg" target="_blank"><img src="./images/0-19.jpg" width="250"/></a>|
 
-## Summary
+# Summary
 
 Now that you have setup MFA for your admin user, start with the scenario with [Exercise 1 - Create business role in SAP Cloud IAG](../ex1/README.md)

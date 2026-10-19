@@ -1,48 +1,75 @@
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
 # XP263
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2026 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2026 session [XP263 - Identity lifecycle and governance with SAP services and Microsoft Entra](https://www.sap.com/events/teched/berlin/flow/sap/te26/catalog/page/catalog/session/1786630013489001Nv9u).  
 
 ## Overview
 
-This session introduces attendees to...
+In this hands-on session, you will learn how to combine **Microsoft Entra ID Governance** with **SAP Cloud Identity Access Governance (SAP Cloud IAG)** to create an end-to-end access governance process for SAP applications.
+
+The scenario demonstrates how Microsoft Entra access packages can be used as the central entry point for requesting business access while SAP Cloud IAG provides SAP-specific access governance and provisioning. A business role defined in SAP Cloud IAG is exposed as a resource in Microsoft Entra, where it becomes part of an access package (see figure 1) that business users can request through the My Access portal.
+<br><br>
+<a href="./fig1.jpg" target="_blank"><img src="./fig1.jpg" width="250"/></a>
+
+*Figure 1: SAP Cloud IAG and Entra integration*<br><br>
+
+The end-to-end scenario combines:
+
+- **Microsoft Entra ID Governance** for catalogs, access packages, access requests, and approval policies
+- **SAP Cloud Identity Access Governance** for SAP business roles, approval workflows, and provisioning
+- **SAP Cloud Identity Services** for authentication and authorization of SAP BTP applications
+- **SAP BTP** and a Purchase Requisition application as a cloud application protected by role-based authorization
+- **SAP S/4HANA** as the back-end system in which SAP authorization roles are provisioned
+- **SAP Cloud Connector** and SAP BTP Connectivity service for secure communication with the on-premises SAP S/4HANA system
+<br><br>
+<a href="./fig2.jpg" target="_blank"><img src="./fig2.jpg" width="250"/></a>
+
+*Figure 2: Business scenario*<br><br>
+
+The business scenario is centered around a user in the role of a procurement specialist requiring access to the following resources in SAP and Microsoft Entra (see figure 2):
+
+- Membership in the **`ProcurementTeam`** security group in Microsoft Entra
+- Assignment to the **`ProcurementManager`** role of a CAP-based BTP application to manage purchase requisitions.
+- Assignment to the **`Z_MM_PURCHASER`** role in the company's S/4HANA backend system to manage purchase orders.
+
+The required SAP applications and authorizations are represented by the SAP Cloud IAG business role `BR_XP263`. The business role bundles the access across SAP BTP the SAP S/4HANA for roles `ProcurementManager` and `Z_MM_PURCHASER`.
+<br><br>
+<a href="./fig3.jpg" target="_blank"><img src="./fig3.jpg" width="250"/></a>
+
+*Figure 3: Access Governance Process in the scenario*<br><br>
+
+The user requests an Access Package in Microsoft Entra My Access, which starts an approval workflow in Microsoft Entra ID Governance (see figure 3). Once approved, the associated business role request is sent to SAP Cloud IAG, where it undergoes a second SAP-specific approval before SAP Cloud IAG provisions the required access to SAP cloud or on-premises systems. After successful provisioning, the resulting assignment is reflected back in the Microsoft Entra Access Package, completing the end-to-end governed access flow.
+
+<br><br>
+<a href="./fig4.jpg" target="_blank"><img src="./fig4.jpg" width="250"/></a>
+
+*Figure 4: Solution Architecture*<br><br>
+
+You will follow the complete access lifecycle in the exercises from the perspective of administrators, a business user, and approvers, accessing the systems and applications shown in figure 4:
+
+1. Create the business role in SAP Cloud IAG.
+2. Create a Microsoft Entra access package containing the Microsoft Entra group membership and SAP Cloud IAG business role.
+3. Request the access package as a business user.
+4. Approve the request in Microsoft Entra.
+5. Approve the resulting access request in SAP Cloud IAG.
+6. Provision the required access and verify that the business user can access the applications.
+
+By completing these exercises, you will see how Microsoft Entra and SAP identity governance capabilities can work together to provide a governed access process across Microsoft, SAP cloud, and SAP on-premises environments.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are described in the [Getting Started section](./exercises/ex0/README.md). Start here to setup the mandatory Multifactor Authentication (MFA) for your Microsoft Entra admin user in this session.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+- [Exercise 1 - Create business role in SAP Cloud IAG](exercises/ex1/)
+- [Exercise 2 - Create the access package in Microsoft Entra](exercises/ex2/)
+- [Exercise 3 - Request the access package in Entra](exercises/ex3/)
+- [Exercise 4 - Approve the access package in Entra](exercises/ex4/)
+- [Exercise 5 - Approve the access request in SAP Cloud IAG](exercises/ex5/)
+- [Exercise 6 - Provision and verify user access](exercises/ex6/)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

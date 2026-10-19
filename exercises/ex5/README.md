@@ -3,7 +3,7 @@
 In this exercise, you will act as the **SAP Cloud IAG approver** and perform the second governance step in the end-to-end access request process (see *figure 1*).
 
 <br><br>
-<a href="./images/ex5.jpg" target="_blank"><img src="./images/ex5.jpg" width="250"/></a>
+<a href="./images/ex5.jpg" target="_blank"><img src="./images/ex5.jpg"/></a>
 
 *Figure 1: Exercise 5*<br><br>
 

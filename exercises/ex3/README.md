@@ -3,7 +3,7 @@
 In this exercise, you will switch from the administrator perspective to the **business user** perspective and request access as a Procurement Specialist in the organization (see *figure 1*).
 
 <br><br>
-<a href="./images/ex3.jpg" target="_blank"><img src="./images/ex3.jpg" width="250"/></a>
+<a href="./images/ex3.jpg" target="_blank"><img src="./images/ex3.jpg"/></a>
 
 *Figure 1: Exercise 3*<br><br>
 

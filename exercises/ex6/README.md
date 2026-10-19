@@ -3,7 +3,7 @@
 In this final exercise, you will complete the end-to-end scenario by provisioning the approved access as the **SAP Cloud IAG administrator** and verifying the resulting user experience as the **business user** (see *figure 1*).
 
 <br><br>
-<a href="./images/ex6.jpg" target="_blank"><img src="./images/ex6.jpg" width="250"/></a>
+<a href="./images/ex6.jpg" target="_blank"><img src="./images/ex6.jpg"/></a>
 
 *Figure 1: Exercise 6*<br><br>
 

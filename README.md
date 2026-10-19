@@ -1,4 +1,4 @@
-# XP263
+# XP263 | Identity lifecycle and governance with SAP services and Microsoft Entra
 
 ## Description
 
@@ -10,7 +10,7 @@ In this hands-on session, you will learn how to combine **Microsoft Entra ID Gov
 
 The scenario demonstrates how Microsoft Entra access packages can be used as the central entry point for requesting business access while SAP Cloud IAG provides SAP-specific access governance and provisioning. A business role defined in SAP Cloud IAG is exposed as a resource in Microsoft Entra, where it becomes part of an access package (see figure 1) that business users can request through the My Access portal.
 <br><br>
-<a href="./fig1.jpg" target="_blank"><img src="./fig1.jpg" width="250"/></a>
+<a href="./fig1.jpg" target="_blank"><img src="./fig1.jpg"/></a>
 
 *Figure 1: SAP Cloud IAG and Entra integration*<br><br>
 
@@ -23,7 +23,7 @@ The end-to-end scenario combines:
 - **SAP S/4HANA** as the back-end system in which SAP authorization roles are provisioned
 - **SAP Cloud Connector** and SAP BTP Connectivity service for secure communication with the on-premises SAP S/4HANA system
 <br><br>
-<a href="./fig2.jpg" target="_blank"><img src="./fig2.jpg" width="250"/></a>
+<a href="./fig2.jpg" target="_blank"><img src="./fig2.jpg"/></a>
 
 *Figure 2: Business scenario*<br><br>
 
@@ -35,14 +35,14 @@ The business scenario is centered around a user in the role of a procurement spe
 
 The required SAP applications and authorizations are represented by the SAP Cloud IAG business role `BR_XP263`. The business role bundles the access across SAP BTP the SAP S/4HANA for roles `ProcurementManager` and `Z_MM_PURCHASER`.
 <br><br>
-<a href="./fig3.jpg" target="_blank"><img src="./fig3.jpg" width="250"/></a>
+<a href="./fig3.jpg" target="_blank"><img src="./fig3.jpg"/></a>
 
 *Figure 3: Access Governance Process in the scenario*<br><br>
 
 The user requests an Access Package in Microsoft Entra My Access, which starts an approval workflow in Microsoft Entra ID Governance (see figure 3). Once approved, the associated business role request is sent to SAP Cloud IAG, where it undergoes a second SAP-specific approval before SAP Cloud IAG provisions the required access to SAP cloud or on-premises systems. After successful provisioning, the resulting assignment is reflected back in the Microsoft Entra Access Package, completing the end-to-end governed access flow.
 
 <br><br>
-<a href="./fig4.jpg" target="_blank"><img src="./fig4.jpg" width="250"/></a>
+<a href="./fig4.jpg" target="_blank"><img src="./fig4.jpg"/></a>
 
 *Figure 4: Solution Architecture*<br><br>
 
@@ -82,4 +82,4 @@ Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
-Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+Copyright 2026 SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).

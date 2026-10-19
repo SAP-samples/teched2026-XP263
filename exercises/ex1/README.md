@@ -3,7 +3,7 @@
 In this exercise, you will work as an **SAP Cloud IAG administrator** and create the business role that represents the access required by a Procurement Specialist (see *figure 1*).
 
 <br><br>
-<a href="./images/ex1.jpg" target="_blank"><img src="./images/ex1.jpg" width="250"/></a>
+<a href="./images/ex1.jpg" target="_blank"><img src="./images/ex1.jpg"/></a>
 
 *Figure 1: Exercise 1*<br><br>
 

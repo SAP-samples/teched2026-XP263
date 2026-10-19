@@ -3,7 +3,7 @@
 In this exercise, you will act as the **Microsoft Entra approver** and review the access package request submitted by the business user.
 
 <br><br>
-<a href="./images/ex4.jpg" target="_blank"><img src="./images/ex4.jpg" width="250"/></a>
+<a href="./images/ex4.jpg" target="_blank"><img src="./images/ex4.jpg"/></a>
 
 *Figure 1: Exercise 4*<br><br>
 

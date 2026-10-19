@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2026 session [XP263 - I
 
 In this hands-on session, you will learn how to combine **Microsoft Entra ID Governance** with **SAP Cloud Identity Access Governance (SAP Cloud IAG)** to create an end-to-end access governance process for SAP applications.
 
-The scenario demonstrates how Microsoft Entra access packages can be used as the central entry point for requesting business access while SAP Cloud IAG provides SAP-specific access governance and provisioning. A business role defined in SAP Cloud IAG is exposed as a resource in Microsoft Entra, where it becomes part of an access package (see figure 1) that business users can request through the My Access portal.
+The scenario demonstrates how Microsoft Entra access packages can be used as the central entry point for requesting business access while SAP Cloud IAG provides SAP-specific access governance and provisioning. A business role defined in SAP Cloud IAG is exposed as a resource in Microsoft Entra, where it becomes part of an access package (see *figure 1*) that business users can request through the My Access portal.
 <br><br>
 <a href="./fig1.jpg" target="_blank"><img src="./fig1.jpg"/></a>
 
@@ -27,10 +27,10 @@ The end-to-end scenario combines:
 
 *Figure 2: Business scenario*<br><br>
 
-The business scenario is centered around a user in the role of a procurement specialist requiring access to the following resources in SAP and Microsoft Entra (see figure 2):
+The business scenario is centered around a user in the role of a procurement specialist requiring access to the following resources in SAP and Microsoft Entra (see *figure 2*):
 
 - Membership in the **`ProcurementTeam`** security group in Microsoft Entra
-- Assignment to the **`ProcurementManager`** role of a CAP-based BTP application to manage purchase requisitions.
+- Assignment to the **`ProcurementManager`** role of a [CAP](https://cap.cloud.sap/docs/)-based BTP application to manage purchase requisitions.
 - Assignment to the **`Z_MM_PURCHASER`** role in the company's S/4HANA backend system to manage purchase orders.
 
 The required SAP applications and authorizations are represented by the SAP Cloud IAG business role `BR_XP263`. The business role bundles the access across SAP BTP the SAP S/4HANA for roles `ProcurementManager` and `Z_MM_PURCHASER`.
@@ -39,14 +39,14 @@ The required SAP applications and authorizations are represented by the SAP Clou
 
 *Figure 3: Access Governance Process in the scenario*<br><br>
 
-The user requests an Access Package in Microsoft Entra My Access, which starts an approval workflow in Microsoft Entra ID Governance (see figure 3). Once approved, the associated business role request is sent to SAP Cloud IAG, where it undergoes a second SAP-specific approval before SAP Cloud IAG provisions the required access to SAP cloud or on-premises systems. After successful provisioning, the resulting assignment is reflected back in the Microsoft Entra Access Package, completing the end-to-end governed access flow.
+The user requests an Access Package in Microsoft Entra My Access, which starts an approval workflow in Microsoft Entra ID Governance (see *figure 3*). Once approved, the associated business role request is sent to SAP Cloud IAG, where it undergoes a second SAP-specific approval before SAP Cloud IAG provisions the required access to SAP cloud or on-premises systems. After successful provisioning, the resulting assignment is reflected back in the Microsoft Entra Access Package, completing the end-to-end governed access flow.
 
 <br><br>
 <a href="./fig4.jpg" target="_blank"><img src="./fig4.jpg"/></a>
 
 *Figure 4: Solution Architecture*<br><br>
 
-You will follow the complete access lifecycle in the exercises from the perspective of administrators, a business user, and approvers, accessing the systems and applications shown in figure 4:
+You will follow the complete access lifecycle in the exercises from the perspective of administrators, a business user, and approvers, accessing the systems and applications shown in *figure 4*:
 
 1. Create the business role in SAP Cloud IAG.
 2. Create a Microsoft Entra access package containing the Microsoft Entra group membership and SAP Cloud IAG business role.

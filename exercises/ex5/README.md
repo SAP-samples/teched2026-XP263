@@ -15,6 +15,8 @@ This represents the second approval level in the scenario: first the entitlement
 
 At the end of this exercise, all required approvals are complete and SAP Cloud IAG can provision the access contained in the business role to the respective target systems.
 
+| Step   | Description                | Screenshot |
+| :----- | :------------------------- | :--------- |
 | 01     | abc |<a href="./images/5-1.jpg" target="_blank"><img src="./images/5-1.jpg" width="250"/></a>|
 | 02     | abc |<a href="./images/5-2.jpg" target="_blank"><img src="./images/5-2.jpg" width="250"/></a>|
 | 03     | abc |<a href="./images/5-3.jpg" target="_blank"><img src="./images/5-3.jpg" width="250"/></a>|

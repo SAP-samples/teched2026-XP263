@@ -71,6 +71,13 @@ The requirements to follow the exercises in this repository are described in the
 - [Exercise 5 - Approve the access request in SAP Cloud IAG](exercises/ex5/)
 - [Exercise 6 - Provision and verify user access](exercises/ex6/)
 
+## Additional Resources
+
+- Microsoft Learn: [Microsoft Entra SAP IAG integration](https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-sap-integration)
+- Microsoft Learn: [Migrate identity management scenarios from SAP IDM to Microsoft Entra](https://learn.microsoft.com/en-us/entra/id-governance/scenarios/migrate-from-sap-idm)
+- SAP Community Network Blog: [Identity and Access Management with Microsoft Entra, Part IV: Integration with SAP Cloud IAG](https://community.sap.com/t5/technology-blog-posts-by-members/identity-and-access-management-with-microsoft-entra-part-iv-integration/ba-p/14481389)
+- SAP on Azure Video Podcast, Episode 307: [Integration with Cloud IAG](https://www.saponazurepodcast.de/episode307/)
+
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
 

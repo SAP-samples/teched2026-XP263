@@ -17,16 +17,16 @@ At the end of this exercise, the access package request has been submitted and i
 
 | Step   | Description                | Screenshot |
 | :----- | :------------------------- | :--------- |
-| 01     | abc |<a href="./images/3-1.jpg" target="_blank"><img src="./images/3-1.jpg" width="250"/></a>|
-| 02     | abc |<a href="./images/3-2.jpg" target="_blank"><img src="./images/3-2.jpg" width="250"/></a>|
-| 03     | abc |<a href="./images/3-3.jpg" target="_blank"><img src="./images/3-3.jpg" width="250"/></a>|
-| 04     | abc |<a href="./images/3-4.jpg" target="_blank"><img src="./images/3-4.jpg" width="250"/></a>|
-| 05     | abc |<a href="./images/3-5.jpg" target="_blank"><img src="./images/3-5.jpg" width="250"/></a>|
-| 06     | abc |<a href="./images/3-6.jpg" target="_blank"><img src="./images/3-6.jpg" width="250"/></a>|
-| 07     | abc |<a href="./images/3-7.jpg" target="_blank"><img src="./images/3-7.jpg" width="250"/></a>|
-| 08     | abc |<a href="./images/3-8.jpg" target="_blank"><img src="./images/3-8.jpg" width="250"/></a>|
-| 09     | abc |<a href="./images/3-9.jpg" target="_blank"><img src="./images/3-9.jpg" width="250"/></a>|
-| 10     | abc |<a href="./images/3-10.jpg" target="_blank"><img src="./images/3-10.jpg" width="250"/></a>|
-| 11     | abc |<a href="./images/3-11.jpg" target="_blank"><img src="./images/3-11.jpg" width="250"/></a>|
+| 01     | Launch the **Microsoft Edge** browser from your desktop.|<a href="./images/3-1.jpg" target="_blank"><img src="./images/3-1.jpg" width="250"/></a>|
+| 02     | Paste the link to the **My Access** portal from the clipboard into the browser. Enter your business user's login name **`user-<NN>@bestruncorp.onmicrosoft.com`**.<br><br>Replace **`<NN>`** with the number of your seat.<br><br>Click **Next**.|<a href="./images/3-2.jpg" target="_blank"><img src="./images/3-2.jpg" width="250"/></a>|
+| 03     | Enter the user's password.<br><br>Click **Sign in**. |<a href="./images/3-3.jpg" target="_blank"><img src="./images/3-3.jpg" width="250"/></a>|
+| 04     | Click **Next**. |<a href="./images/3-4.jpg" target="_blank"><img src="./images/3-4.jpg" width="250"/></a>|
+| 05     | **Select** your user's account. |<a href="./images/3-5.jpg" target="_blank"><img src="./images/3-5.jpg" width="250"/></a>|
+| 06     | Click **Skip setup**. |<a href="./images/3-6.jpg" target="_blank"><img src="./images/3-6.jpg" width="250"/></a>|
+| 07     | Click **Yes**. |<a href="./images/3-7.jpg" target="_blank"><img src="./images/3-7.jpg" width="250"/></a>|
+| 08     | In the dialog box opened for your access package, select **Continue**. |<a href="./images/3-8.jpg" target="_blank"><img src="./images/3-8.jpg" width="250"/></a>|
+| 09     | Click **Submit request**. |<a href="./images/3-9.jpg" target="_blank"><img src="./images/3-9.jpg" width="250"/></a>|
+| 10     | Check for the notification that your user's request for the access package is now processed.|<a href="./images/3-10.jpg" target="_blank"><img src="./images/3-10.jpg" width="250"/></a>|
+
 
 Continue to - [Exercise 4 - Approve the access package in Microsoft Entra](../ex4/README.md)

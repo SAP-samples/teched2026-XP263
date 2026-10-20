@@ -77,6 +77,7 @@ The requirements to follow the exercises in this repository are described in the
 - Microsoft Learn: [Migrate identity management scenarios from SAP IDM to Microsoft Entra](https://learn.microsoft.com/en-us/entra/id-governance/scenarios/migrate-from-sap-idm)
 - SAP Community Network Blog: [Identity and Access Management with Microsoft Entra, Part IV: Integration with SAP Cloud IAG](https://community.sap.com/t5/technology-blog-posts-by-members/identity-and-access-management-with-microsoft-entra-part-iv-integration/ba-p/14481389)
 - SAP on Azure Video Podcast, Episode 307: [Integration with Cloud IAG](https://www.saponazurepodcast.de/episode307/)
+- SAP BTP CAP Purchase Requisition application used in this scenario: [GitHub Repository](https://github.com/raepple/CAPProcurementApp)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

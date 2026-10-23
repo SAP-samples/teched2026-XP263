@@ -1,5 +1,19 @@
 # Getting Started
 
+## System access
+
+This table lists all systems and services you need access to in the exercises. The password is the same for all users and will be shared by the instructors in the session.
+
+| **System/Application** | **URL** | **User** |
+|------------------------|---------|----------|
+| Microsoft Entra admin center | https://entra.microsoft.com | `admin-<NN>@bestruncorp.onmicrosoft.com` |
+| SAP Cloud IAG Launchpad | https://xp263-6cntx8l6.sapciag-ee.cfapps.us20.hana.ondemand.com | `admin-<NN>@bestruncorp.onmicrosoft.com`<br><br>`iag-<NN>@bestruncorp.onmicrosoft.com` |
+| Microsoft Entra My Access Portal| https://myaccess.microsoft.com/ | `user-<NN>@bestruncorp.onmicrosoft.com`|
+| Purchase Requisition App | https://sap-teched-2026-xp263-xp263-6cntx8l6-dev-procurement.cfapps.us20.hana.ondemand.com/ | `user-<NN>@bestruncorp.onmicrosoft.com` |
+| SAP S/4HANA | SID HE4| `USER-<NN>` |
+
+## Microsoft Entra Admin User setup
+
 You need to setup Multifactor Authentication (MFA) for your Entra admin user. This is required to access the [Microsoft Entra admin center](https://entra.microsoft.com) in the exercises.
 
 | Step   | Description                | Screenshot |

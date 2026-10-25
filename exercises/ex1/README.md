@@ -30,6 +30,6 @@ At the end of this exercise, the SAP Cloud IAG business role is ready to be expo
 | 10     | Select the **Approver Content (P000088)** user from the list.<br><br>Click **Select**. |<a href="./images/1-10.jpg" target="_blank"><img src="./images/1-10.jpg" width="250"/></a>|
 | 11     | Click on the **value help** of the **Assignment Approvers** field.|<a href="./images/1-11.jpg" target="_blank"><img src="./images/1-11.jpg" width="250"/></a>|
 | 12     | Enter **`Approver<NN>`** in the search bar and click the **magnifying glass** symbol. Replace **`<NN>`** with the number of your seat.<br><br>Select the user **`Approver<NN> IAG`** from the list and click **Select**.|<a href="./images/1-12.jpg" target="_blank"><img src="./images/1-12.jpg" width="250"/></a>|
-| 13     | From the **Business subprocess** drop-down list, select **`GLOBAL Sub Process`**.<br>br>From the **Criticality** drop-down list, select **Low**.<br><br>Click **Save and Activate**.|<a href="./images/1-13.jpg" target="_blank"><img src="./images/1-13.jpg" width="250"/></a>|
+| 13     | From the **Business subprocess** drop-down list, select **`GLOBAL Sub Process`**.<br><br>From the **Criticality** drop-down list, select **Low**.<br><br>Click **Save and Activate**.|<a href="./images/1-13.jpg" target="_blank"><img src="./images/1-13.jpg" width="250"/></a>|
 
 Continue to - [Exercise 2 - Create the Access Package in Microsoft Entra](../ex2/README.md)

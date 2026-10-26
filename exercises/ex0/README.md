@@ -14,6 +14,8 @@ This table lists all systems and services you need access to in the exercises. T
 
 ## Microsoft Entra Admin User setup
 
+*Estimated Time: **10 min***
+
 You need to setup Multifactor Authentication (MFA) for your Entra admin user. This is required to access the [Microsoft Entra admin center](https://entra.microsoft.com) in the exercises.
 
 | Step   | Description                | Screenshot |

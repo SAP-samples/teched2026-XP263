@@ -1,5 +1,7 @@
 # Exercise 4 - Approve the access package in Microsoft Entra
 
+*Estimated Time: **10 min***
+
 In this exercise, you will act as the **Microsoft Entra approver** and review the access package request submitted by the business user.
 
 <br><br>

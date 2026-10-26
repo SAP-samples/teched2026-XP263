@@ -1,5 +1,7 @@
 # Exercise 5 - Approve the access request in SAP Cloud IAG
 
+*Estimated Time: **10 min***
+
 In this exercise, you will act as the **SAP Cloud IAG approver** and perform the second governance step in the end-to-end access request process (see *figure 1*).
 
 <br><br>

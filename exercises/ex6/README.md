@@ -1,5 +1,7 @@
 # Exercise 6 - Provision and verify user access
 
+*Estimated Time: **20 min***
+
 In this final exercise, you will complete the end-to-end scenario by provisioning the approved access as the **SAP Cloud IAG administrator** and verifying the resulting user experience as the **business user** (see *figure 1*).
 
 <br><br>

@@ -1,5 +1,7 @@
 # Exercise 2 - Create the Access Package in Microsoft Entra
 
+*Estimated Time: **20 min***
+
 In this exercise, you will work as a **Microsoft Entra administrator** and configure the Microsoft Entra ID Governance objects that business users will use to request Procurement Manager access (see *figure 1*).
 
 <br><br>

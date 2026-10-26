@@ -1,5 +1,7 @@
 # Exercise 3 - Request the access package in Microsoft Entra
 
+*Estimated Time: **5 min***
+
 In this exercise, you will switch from the administrator perspective to the **business user** perspective and request access as a Procurement Specialist in the organization (see *figure 1*).
 
 <br><br>

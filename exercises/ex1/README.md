@@ -1,5 +1,7 @@
 # Exercise 1 - Create business role in SAP Cloud IAG
 
+*Estimated Time: **10 min***
+
 In this exercise, you will work as an **SAP Cloud IAG administrator** and create the business role that represents the access required by a Procurement Specialist (see *figure 1*).
 
 <br><br>

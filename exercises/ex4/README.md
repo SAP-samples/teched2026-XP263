@@ -27,6 +27,6 @@ At the end of this exercise, the Microsoft Entra approval stage is complete and 
 | 08     | Click **Yes**. |<a href="./images/4-8.jpg" target="_blank"><img src="./images/4-8.jpg" width="250"/></a>|
 | 09     | Click **Approve or deny now**. |<a href="./images/4-9.jpg" target="_blank"><img src="./images/4-9.jpg" width="250"/></a>|
 | 10     | *Activate* the checkbox of your business user's access package request in the list of **Pending** requests.<br><br>Click **Approve**. |<a href="./images/4-10.jpg" target="_blank"><img src="./images/4-10.jpg" width="250"/></a>|
-| 11     | Enter a reason, for example "*Access approved*", and click **Submit**. |<a href="./images/4-11.jpg" target="_blank"><img src="./images/4-11.jpg" width="250"/></a>|
+| 11     | Click **Submit**. |<a href="./images/4-11.jpg" target="_blank"><img src="./images/4-11.jpg" width="250"/></a>|
 
 Continue to - [Exercise 5 - Approve the access request in SAP Cloud IAG](../ex5/README.md)
